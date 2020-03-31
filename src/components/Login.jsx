@@ -67,7 +67,7 @@ export class Login extends Component {
             <>  
                 <div className="row my-5">
                     <div className="card m-auto rounded-border box-shadow">
-                    <img className="mx-auto mt-5" src={userLogo} width="70"/>
+                    <img className="mx-auto mt-5" src={userLogo} width="70" alt="login-logo"/>
 
                         <div className="col">
                         <div className="card-body px-5">
