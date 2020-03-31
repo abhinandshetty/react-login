@@ -3,7 +3,7 @@ import Toastr from './Toastr';
 import { toast } from 'react-toastify';
 import { loginUser } from '../redux/user/user';
 import { connect } from 'react-redux';
-import  userLogo  from './assests/icons8-user-100.svg';
+import  userLogo  from '../assests/icons8-user-100.svg';
 
 export class Login extends Component {
     constructor() {
