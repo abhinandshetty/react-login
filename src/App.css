@@ -31,3 +31,24 @@ table {
 tr {
   height: 50px;
 }
+
+.sidebar {
+  background-color: #1e2938 !important;
+}
+
+
+.metismenu {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+  
+.bm-menu {
+  background-color: #1e2938 !important;
+}
+
+nav.navbar {
+  background-color: #7593b9 !important;
+}
+

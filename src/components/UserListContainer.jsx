@@ -22,7 +22,7 @@ export class UserListContainer extends Component {
     render() {
         const { headers, rows } = this.getDataForTable();
         return (
-            <div className="container mt-5">
+            <div className="container pt-5">
                 <Table headers={headers} rows={rows} />
             </div>
         )
