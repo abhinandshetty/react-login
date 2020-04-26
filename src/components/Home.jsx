@@ -8,7 +8,7 @@ import { UserListContainer } from './UserListContainer';
 function Home() {
     return (
         <>      
-            <SidebarExampleSidebar />  
+            {/* <SidebarExampleSidebar />   */}
             <UserListContainer />
         </>
   

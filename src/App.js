@@ -10,8 +10,6 @@ import Login from './components/Login';
 import {Provider} from 'react-redux';
 import store from './redux/store';
 import UserListContainer from './components/UserListContainer';
-import SidebarExampleSidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -19,14 +17,7 @@ function App() {
       <Router>
           <Switch>
             <Route exact path="/login" component={Login} />
-            <Router>
-            <SidebarExampleSidebar />
-
-              <Navbar />
-              <Switch>
-                <Route path="/home" component={UserListContainer} />
-              </Switch>
-            </Router>
+            <Route path="/home" component={UserListContainer} />
             <Redirect to="/login" from="*" />
           </Switch>
       </Router>
